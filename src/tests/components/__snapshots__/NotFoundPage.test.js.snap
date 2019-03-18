@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render NotFoudPage 1`] = `
+<div>
+  404! No Bueno 
+  <Link
+    replace={false}
+    to="/"
+  >
+    Go Home. You're Drunk!
+  </Link>
+</div>
+`;
