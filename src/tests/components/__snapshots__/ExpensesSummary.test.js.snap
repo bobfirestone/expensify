@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render given a single expense 1`] = `
+<div>
+  <h1>
+    Viewing 
+    1
+     
+    expense
+     totaling 
+    $1.00
+  </h1>
+</div>
+`;
+
+exports[`should render given multiple expenses 1`] = `
+<div>
+  <h1>
+    Viewing 
+    3
+     
+    expenses
+     totaling 
+    $3.56
+  </h1>
+</div>
+`;
+
+exports[`should should render 0 items & $0 when no expenses are given 1`] = `
+<div>
+  <h1>
+    Viewing 
+    0
+     
+    expenses
+     totaling 
+    $0.00
+  </h1>
+</div>
+`;
