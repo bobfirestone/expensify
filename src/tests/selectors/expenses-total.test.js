@@ -1,4 +1,4 @@
-import { expensesTotal } from "../../selectors/expenses-total";
+import expensesTotal from "../../selectors/expenses-total";
 
 const expenses = [
   {
