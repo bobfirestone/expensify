@@ -11,9 +11,13 @@ const config = {
 
 firebase.initializeApp(config);
 
-firebase
-  .database()
-  .ref()
-  .set({
-    name: "Bob Firestone"
-  });
+const database = firebase.database();
+
+database.ref().set({
+  name: "Bob Firestone",
+  age: 39
+});
+
+database.ref("age").set(40);
+
+database.ref("attributes").set({ height: `6'4"`, weight: 240 });
