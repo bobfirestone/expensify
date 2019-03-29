@@ -28,6 +28,31 @@ export const expenses = [
   }
 ];
 
+export const firebaseExpenses = [
+  {
+    description: "test one 1 - textAndAmount",
+    note: "",
+    amount: 1,
+    createdAt: 0
+  },
+  {
+    description: "test two 2 - textAndAmount",
+    note: "",
+    amount: 22,
+    createdAt: moment(0)
+      .add(1, "weeks")
+      .valueOf()
+  },
+  {
+    description: "test three",
+    note: "",
+    amount: 333,
+    createdAt: moment(0)
+      .subtract(1, "weeks")
+      .valueOf()
+  }
+];
+
 export const expense = {
   id: "1",
   description: "test",
